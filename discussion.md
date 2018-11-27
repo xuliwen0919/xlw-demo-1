@@ -50,3 +50,20 @@ four kinds of witches: folkloric, villiage, demonic, envisioned
 
 village witchcraft was not about threats to society as a whole, nor even (with rare exceptions) about threats to the village as a whole. It was about personal, individual malice.
 
+
+
+
+
+27.11.18:
+
+- Witch character
+- comics
+- video
+- Audience:
+  - tourists
+    - children
+    - foreigner
+- if we have time:
+  - map
+  - walking witch
+
