@@ -1,0 +1,163 @@
+*{
+	font-family: Helvetica,'Century Gothic','arial unicode ms';
+}
+
+body {
+	display: block;
+	background-color: #eee;
+
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:active {
+	background-color: #229;
+}
+
+.clearfix:after {
+	clear: both;
+	display: table;
+	content: ".";
+	visibility: hidden;
+}
+
+nav {
+	display: block;
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+	overflow: hidden;
+}
+
+nav ul{
+	margin-top: 10px;
+}
+
+nav ul li {
+	float: right;
+	display: block;
+	width: 10%;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	background-color: #444;
+}
+
+nav ul li+li {
+	border-right: 1px solid #666;
+}
+
+table.data {
+	position: absolute;
+	top: 30px;
+	left: 36%;
+
+}
+
+
+table.data>td {
+	width: 300px;
+}
+
+
+.page {
+	position: relative;
+	margin: 24px auto;
+	width: 86%;
+	height: 700px;
+	background-color: #fff;
+	font-size: 20px
+}
+.page_net {
+	position: relative;
+	margin: 24px auto;
+	width: 86%;
+	height: 800px;
+	background-color: #fff;
+	font-size: 20px
+}
+
+
+
+
+.title{
+		font-family:  "Apple Chancery";
+		font-size: 46px;
+		text-align: center;
+}
+.range_bar{
+	margin:auto;
+	width:300px;
+	height:20px;
+}
+
+.myButton {
+	display: block;
+	margin:20px auto;
+	width: 186px;
+	height: 50px;
+	border-radius: 4px;
+	border: 0;
+	background-color: #333;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Century Gothic';
+}
+
+.myButton:hover {
+	box-shadow: 5px 5px 10px rgba(160,160,160,0.5);
+
+	zoom: 1.02;
+}
+
+.myButton:active {
+	background-color: #222;
+	zoom: 0.98;
+}
+
+.diceButton {
+	margin: 40px,auto;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background-color: #444;
+	border-radius: 8px;
+	border: 0;
+	text-align: center;
+	font-size: 66px;
+	color: #fff;
+}
+
+#title_icon{
+	float:left;
+	color: #fff;
+	border-right:none;
+	background-color: #333;
+	width: 400px;
+	font-family: "Apple Chancery";
+	text-align: left;
+}
+
+#illu1 {
+	visibility: hidden;
+}
+#illu2 {
+	visibility: hidden;
+}
+
+#mapid { 
+	position: relative;
+	height: 600px; 
+	width: 700px;
+	margin: auto;
+	top: 6%;
+
+}
+@media screen and (max-width: 420px) {
+
+/*change on mobile*/
+
+}
